@@ -6,10 +6,12 @@
  * Time: 15:43
  */
 
+session_start();
+
 $access_level = $_SESSION['access_level'];
 
-print $_SESSION['access_level'];
-print $access_level;
+echo $_SESSION['access_level'];
+echo $access_level;
 
 function displayAccessLevelInformation($access_level) {
     if ($access_level == "standarduser") {
