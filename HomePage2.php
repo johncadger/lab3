@@ -6,16 +6,13 @@
  * Time: 15:43
  */
 
-$access_level = $_SESSION['access_level'];
+displayAccessLevelInformation($_SESSION['access_level']);
 
-echo $_SESSION['access_level'];
-echo $access_level;
-
-function displayAccessLevelInformation($access_level) {
-    if ($access_level == "standarduser") {
+function displayAccessLevelInformation($accesslevel) {
+    if ($accesslevel == "standarduser") {
         echo "<p>You are currently logged in as a standard user</p>";
     }
-    elseif ($access_level == "root") {
+    elseif ($accesslevel == "root") {
         echo "<p>You are currently logged in as a root user</p>";
         echo "<p>You now have access to additional administrative features</p>";
     }
