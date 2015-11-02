@@ -12,7 +12,7 @@ $password = $_POST["password"];
 if ($username = "a"){
     if ($password = "b"){
         setcookie('username','a');
-        setcookie('access_level','root');
+        setcookie('access_level','standard');
         header('Location: http://1204848-lab1.azurewebsites.net/HomePage.php');
     }
 }
