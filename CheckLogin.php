@@ -16,4 +16,11 @@
 $username = $_POST["username"];
 $password = $_POST["password"];
 
-echo $username . " ". $password;
+if ($username = "a"){
+    if ($password = "b"){
+        setcookie('username','a');
+        setcookie('access_level','standarduser');
+        header('Location: http://1204848-lab1.azurewebsites.net/HomePage.php');
+    }
+}
+
