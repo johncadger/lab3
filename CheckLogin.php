@@ -1,8 +1,4 @@
 
-$username = $_POST["username"];
-$password = $_POST["password"];
-
-echo $username . " ". $password;
 
 
 
@@ -16,3 +12,8 @@ echo $username . " ". $password;
  * Date: 02/11/2015
  * Time: 13:22
  */
+
+$username = $_POST["username"];
+$password = $_POST["password"];
+
+echo $username . " ". $password;
