@@ -6,11 +6,7 @@
  * Time: 15:43
  */
 
-session_start();
-
-if (isset($_SESSION['access_level'])){
-    echo "This works.";
-}
+echo "This works.";
 
 $access_level = $_SESSION['access_level'];
 
