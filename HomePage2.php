@@ -8,6 +8,10 @@
 
 session_start();
 
+if (isset($_SESSION['access_level'])){
+    echo "This works.";
+}
+
 $access_level = $_SESSION['access_level'];
 
 echo $_SESSION['access_level'];
