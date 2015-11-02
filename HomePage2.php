@@ -7,7 +7,7 @@
  */
 session_start();
 
-print $_SESSION['access_level'];
+echo $_SESSION['access_level'];
 
 displayAccessLevelInformation($_SESSION['access_level']);
 
