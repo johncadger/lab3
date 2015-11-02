@@ -6,8 +6,6 @@
  * Time: 15:43
  */
 
-echo "This works.";
-
 $access_level = $_SESSION['access_level'];
 
 echo $_SESSION['access_level'];
