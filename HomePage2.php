@@ -1,3 +1,4 @@
+session_start();
 <?php
 /**
  * Created by PhpStorm.
@@ -5,7 +6,7 @@
  * Date: 02/11/2015
  * Time: 15:43
  */
-session_start();
+
 
 echo $_SESSION['access_level'];
 
