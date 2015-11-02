@@ -19,3 +19,5 @@ function displayAccessLevelInformation($access_level) {
         echo "<p>You now have access to additional administrative features</p>";
     }
 }
+
+echo $access_level;
