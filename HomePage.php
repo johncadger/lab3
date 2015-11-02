@@ -9,6 +9,7 @@
 $access_level = $_COOKIE['access_level'];
 
 echo $_COOKIE['access_level'];
+echo $access_level;
 
 function displayAccessLevelInformation($access_level) {
     if ($access_level == "standarduser") {
@@ -20,4 +21,3 @@ function displayAccessLevelInformation($access_level) {
     }
 }
 
-echo $access_level;
