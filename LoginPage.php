@@ -1,10 +1,10 @@
 
 
 
-form action= "CheckLogin.php" method= "post">
-<label>Username<input type= "text" name= "username"></label>
-<label>Password<input type= "text" name= "password"></label>
-<label><input type= "submit" value= "Submit"></label>
+<form action= "CheckLogin.php" method= "post">
+    <label>Username<input type= "text" name= "username"></label>
+    <label>Password<input type= "text" name= "password"></label>
+    <label><input type= "submit" value= "Submit"></label>
 </form>
 
 
